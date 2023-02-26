@@ -23,12 +23,12 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog
-      url: /blogs
-      weight: 1
+  # main:
+  #   - identifier: blog
+  #     name: Blog
+  #     title: Blog
+  #     url: /blogs
+  #     weight: 1
 
 params:
   title: "Hugo Profile"
@@ -59,7 +59,7 @@ params:
       disableProjects: false
       disableAchievements: false
       disableContact: false
-      disableBLogs: false
+      disableBLogs: true
 
   # Hero
   hero:
@@ -68,7 +68,7 @@ params:
     title: "Bruno Prada"
     subtitle: "Arquiteto de Solução"
     content: "Profissional da área de Tecnologia da Informação com 8 anos de experiência em Gestão de Projetos de Infraestrutura de TI e 5 anos de experiência em Arquitetura de TI."
-    image: /images/me.jpg
+    image: "/images/me.png"
     button:
       enable: true
       name: "Currículo"
@@ -86,7 +86,7 @@ params:
   about:
     enable: true
     title: "Sobre mim"
-    image: "/images/me.jpg"
+    image: "/images/me.png"
     content: |
       Sou **Bruno Prada**, tenho 34 anos e atuo na área de tecnologia há 12 anos. Tenho experiência em **Gestão de Projetos de Infraestrutura de TI** e atualmente sou **Arquiteto de Soluções** no **Setor Financeiro**.
     skills:
