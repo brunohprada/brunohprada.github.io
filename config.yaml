@@ -32,7 +32,7 @@ Menus:
 
 params:
   title: "Hugo Profile"
-  description: Text about my cool site
+  description: brunohprada
   # staticPath: ""  # The path to serve the static files from
   favicon: "/images/fav_b.png"    
   useBootstrapCDN: false
@@ -67,7 +67,7 @@ params:
     intro: 
     title: "Bruno Prada"
     subtitle: "Arquiteto de Solução"
-    content: "Profissional da área de Tecnologia da Informação com 8 anos de experiência em Gestão de Projetos de Infraestrutura de TI e 5 anos de experiência em Arquitetura de TI."
+    content: "Profissional da área de Tecnologia da Informação com 6 anos de experiência em Gestão de Projetos de Infraestrutura de TI e 6 anos de experiência em Arquitetura de TI."
     image: "/images/me.png"
     button:
       enable: true
@@ -93,9 +93,9 @@ params:
       enable: true
       title:
       items:
+        - CSP Azure
         - Microsoft Vísio
         - Microsoft Project
-        - Microsoft Office
         - Git
         - Atlasian Jira
         - Atlasian Bitbucket
@@ -118,6 +118,8 @@ params:
           name: "View the project"
           url: "https://banco.bradesco"
         content: |
+          Atuo na liderança de Arquitetura da BIA - Bradesco Inteligência Artificial.
+          
           Análise e Definição de Arquiteturas de Referência para Negócio, Aplicação, Infraestrutura e Dados. Análise de Requisitos Funcionais e Não Funcionais para desenvolvimento de soluções. Análise de novos produtos e ferramentas de TI em Provas de Conceito. Documentação de Arquitetura e Liderança de Equipe de Arquitetura em projetos de grande porte.
 
           Liderança de Arquitetura para o projeto Open Finance onde contribuí com as definições e direcionamentos de Arquitetura para nuvem pública, definição de processos de validação de proposta de solução arquitetural, nivelamento e padronização de diagramas de arquitetura com Modelagem C4 e MDL 2.0, implementação de registro de decisão arquitetural (ADR). Atuei como Arquiteto de Solução no desenvolvimento de documentação das arquiteturas de Aplicação e de Infraestrutura para um novo motor de crédito baseado em processamento em lote e eventos próximos do tempo real. Atuei no desenvolvimento e documentação de solução de arquitetura para atendimento de requisitos regulatórios para a Lei Geral de Proteção de Dados (LGPD), onde catalogação de dados e integração com serviços de alta plataforma (Mainframe) foram amplamente trabalhados para o sucesso do projeto. Trabalhei em projetos menores que envolviam manutenção arquitetural (AS-IS / TO-BE).
@@ -163,6 +165,46 @@ params:
     title: "Educação"
     index: false
     items:
+      - title: "Microsoft Certified: Azure Data Fundamentals (DP-900)"
+        school:
+          name: "Microsoft"
+          url: "https://microsoft.com"
+        date: "Setembro - 2023"
+        content:
+        featuredLink:
+          enable: true
+          name: "Certificação"
+          url: "https://learn.microsoft.com/en-us/users/brunohprada/credentials/7830715457c6291c"
+      - title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
+        school:
+          name: "Microsoft"
+          url: "https://microsoft.com"
+        date: "Julho - 2023"
+        content:
+        featuredLink:
+          enable: true
+          name: "Certificação"
+          url: "https://learn.microsoft.com/en-us/users/brunohprada/credentials/cbcd7727ad93d738"
+      - title: "TOGAF® 9 Certified"
+        school:
+          name: "The Open Group"
+          url: "https://www.opengroup.org/"
+        date: "Março - 2020"
+        content:
+        featuredLink:
+          enable: false
+          name: ""
+          url: ""
+      - title: "TOGAF® 9 Foundation"
+        school:
+          name: "The Open Group"
+          url: "https://www.opengroup.org/"
+        date: "Março - 2020"
+        content:
+        featuredLink:
+          enable: false
+          name: ""
+          url: ""
       - title: "Formação de Gestão de Projetos"
         school:
           name: "FIA - Fundação Instituto de Administração"
@@ -207,7 +249,7 @@ params:
       disableFeaturedImage: true
     socialNetworks:
       github: https://github.com/brunohprada
-      linkedin: https://linkedin.com/brunohprada
+      linkedin: https://www.linkedin.com/in/brunohprada
 
   # List pages like blogs and posts
   listPages:
