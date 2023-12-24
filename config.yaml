@@ -173,7 +173,7 @@ params:
         content:
         featuredLink:
           enable: true
-          name: "Certificação"
+          name: "Certificado"
           url: "https://learn.microsoft.com/en-us/users/brunohprada/credentials/83ce64bbc836af24"
       - title: "Microsoft Certified: Azure Data Fundamentals (DP-900)"
         school:
@@ -183,7 +183,7 @@ params:
         content:
         featuredLink:
           enable: true
-          name: "Certificação"
+          name: "Certificado"
           url: "https://learn.microsoft.com/en-us/users/brunohprada/credentials/7830715457c6291c"
       - title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
         school:
@@ -193,7 +193,7 @@ params:
         content:
         featuredLink:
           enable: true
-          name: "Certificação"
+          name: "Certificado"
           url: "https://learn.microsoft.com/en-us/users/brunohprada/credentials/cbcd7727ad93d738"
       - title: "TOGAF® 9 Certified"
         school:
@@ -202,9 +202,9 @@ params:
         date: "Março - 2020"
         content:
         featuredLink:
-          enable: false
-          name: ""
-          url: ""
+          enable: true
+          name: "Certificado"
+          url: "https://drive.google.com/file/d/1cQCgR5NQDAriflRmSgk_8kGEFOIzDNU6/view?usp=sharing"
       - title: "TOGAF® 9 Foundation"
         school:
           name: "The Open Group"
@@ -212,9 +212,9 @@ params:
         date: "Março - 2020"
         content:
         featuredLink:
-          enable: false
-          name: ""
-          url: ""
+          enable: true
+          name: "Certificado"
+          url: "https://drive.google.com/file/d/1zoms-ierlezIPpA3ZnQX9_Sabnu1-2o9/view?usp=sharing"
       - title: "Formação de Gestão de Projetos"
         school:
           name: "FIA - Fundação Instituto de Administração"
