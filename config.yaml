@@ -79,8 +79,8 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://www.github.com/brunohprada
-        # - icon: fab fa-linkedin
-        #   url: https://www.github.com/brunohprada
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/brunohprada
 
   # About
   about:
@@ -88,17 +88,17 @@ params:
     title: "Sobre mim"
     image: "/images/me.png"
     content: |
-      Sou **Bruno Prada**, tenho 34 anos e atuo na área de tecnologia há 12 anos. Tenho experiência em **Gestão de Projetos de Infraestrutura de TI** e atualmente sou **Arquiteto de Soluções** no **Setor Financeiro**.
+      Sou **Bruno Prada**, tenho 35 anos e atuo na área de tecnologia há 12 anos. Tenho experiência em **Gestão de Projetos de Infraestrutura de TI** e atualmente sou **Arquiteto de Soluções** no **Setor Financeiro**.
     skills:
       enable: true
       title:
       items:
-        - CSP Azure
-        - Microsoft Vísio
-        - Microsoft Project
+        - Azure
         - Git
-        - Atlasian Jira
         - Atlasian Bitbucket
+        - Microsoft Project
+        - Atlasian Jira
+        - Microsoft Vísio
         - Atlasian Confluence
         - HOPEX Platform
 
@@ -165,6 +165,16 @@ params:
     title: "Educação"
     index: false
     items:
+      - title: "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)"
+        school:
+          name: "Microsoft"
+          url: "https://microsoft.com"
+        date: "Dezembro - 2023"
+        content:
+        featuredLink:
+          enable: true
+          name: "Certificação"
+          url: "https://learn.microsoft.com/en-us/users/brunohprada/credentials/83ce64bbc836af24"
       - title: "Microsoft Certified: Azure Data Fundamentals (DP-900)"
         school:
           name: "Microsoft"
