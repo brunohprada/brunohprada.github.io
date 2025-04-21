@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination.perperSize: 10
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -51,7 +51,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     brandName: "Bruno Prada" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     menus:
       disableAbout: false
       disableExperience: false
@@ -67,12 +67,12 @@ params:
     intro: 
     title: "Bruno Prada"
     subtitle: "Arquiteto de Solução"
-    content: "Profissional da área de Tecnologia da Informação com 6 anos de experiência em Gestão de Projetos de Infraestrutura de TI e 6 anos de experiência em Arquitetura de TI."
+    content: "Profissional da área de Tecnologia da Informação com 6 anos de experiência em Gestão de Projetos de Infraestrutura de TI e 8 anos de experiência em Arquitetura de TI."
     image: "/images/me.png"
     button:
       enable: true
       name: "Currículo"
-      url: "https://bit.ly/bhp-curriculo" # todo: substituir link por bit.ly e transformar arquivo em PDF.
+      url: "https://bit.ly/bhp-curriculo"
       download: true
       newPage: true
     socialLinks:
@@ -88,7 +88,7 @@ params:
     title: "Sobre mim"
     image: "/images/me.png"
     content: |
-      Sou **Bruno Prada**, tenho 35 anos e atuo na área de tecnologia há 12 anos. Tenho experiência em **Gestão de Projetos de Infraestrutura de TI** e atualmente sou **Arquiteto de Soluções** no **Setor Financeiro**.
+      Sou **Bruno Prada**, tenho 35 anos e atuo na área de tecnologia há 14 anos. Tenho experiência em **Gestão de Projetos de Infraestrutura de TI** e atualmente estou como **Arquiteto de Soluções** no **Setor Financeiro**.
     skills:
       enable: true
       title:
