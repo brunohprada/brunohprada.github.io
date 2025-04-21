@@ -51,7 +51,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     brandName: "Bruno Prada" # Brand name for the brand | default is the title variable
-    disableSearch: true
+    disableSearch: false
     menus:
       disableAbout: false
       disableExperience: false
@@ -165,6 +165,26 @@ params:
     title: "Educação"
     index: false
     items:
+      - title: "MBA em Liderança, Gestão de Equipes e Produtividade"
+        school:
+          name: "PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul"
+          url: "https://www.pucrs.br/en/"
+        date: "Abril - 2025"
+        content:
+        featuredLink:
+          enable: true
+          name: "Certificado (em confecção)"
+          url: ""
+      - title: "Microsoft Certified: Azure Administrator Associate (AZ-104)"
+        school:
+          name: "Microsoft"
+          url: "https://microsoft.com"
+        date: "Abril - 2024"
+        content:
+        featuredLink:
+          enable: true
+          name: "Certificado"
+          url: "https://learn.microsoft.com/api/credentials/share/pt-br/brunohprada/E1D1408BDE5ACED7?sharingId=E9319E4EB7928C01"
       - title: "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)"
         school:
           name: "Microsoft"
